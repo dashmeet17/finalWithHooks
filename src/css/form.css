@@ -1,0 +1,66 @@
+form {
+  margin: 30px 0;
+}
+
+.amount {
+  margin-left: 50%;
+  margin-top: 0px;
+  width: 250px;
+  height: 25px;
+}
+
+.helpText {
+  font-size: 8px;
+}
+
+.paymentForm {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.container {
+  border: black solid 1px !important;
+  width: 900px !important;
+}
+
+.buttonGrp {
+  margin-top: 10px !important;
+}
+
+.trxnButton {
+  background-color: #b7babd3b !important;
+  border: black solid;
+  color: black !important;
+}
+
+.padding {
+  padding-top: 7%;
+}
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.transferBtn {
+  cursor:pointer;
+  margin-left: 60%;
+}
+
+.marginTop {
+  margin-top: 3%;
+}
+
+.error {
+  outline: 2px solid red;
+}
+
+.errorMesg {
+  color:red;
+}
+
+.errorMesg {
+  margin-top: 1%;
+  color:red;
+  font-size:10px;
+}

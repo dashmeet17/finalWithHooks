@@ -1,0 +1,17 @@
+.rt-td {
+  text-align: center;
+}
+
+.trxnTable {
+    background-color: #b7babd3b !important;
+    width: 900px !important;
+}
+
+.container {
+  border: black solid 1px;
+}
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
