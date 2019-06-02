@@ -9,11 +9,11 @@ form {
   height: 25px;
 }
 
-.helpText {
+.help-text {
   font-size: 8px;
 }
 
-.paymentForm {
+.payment-form {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
@@ -23,11 +23,11 @@ form {
   width: 900px !important;
 }
 
-.buttonGrp {
+.button-grp {
   margin-top: 10px !important;
 }
 
-.trxnButton {
+.trxn-button {
   background-color: #b7babd3b !important;
   border: black solid;
   color: black !important;
@@ -42,12 +42,12 @@ div[disabled] {
   opacity: 0.7;
 }
 
-.transferBtn {
+.transfer-btn {
   cursor:pointer;
   margin-left: 60%;
 }
 
-.marginTop {
+.margin-top {
   margin-top: 3%;
 }
 
@@ -55,11 +55,11 @@ div[disabled] {
   outline: 2px solid red;
 }
 
-.errorMesg {
+.error-mesg {
   color:red;
 }
 
-.errorMesg {
+.error-mesg {
   margin-top: 1%;
   color:red;
   font-size:10px;

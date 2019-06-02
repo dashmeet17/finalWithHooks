@@ -67,7 +67,7 @@ const Form = () => {
   const getClassNames = (user, field) => {
       var sb = new StringBuffer();
       if(field === 'user') {
-          username === user?sb.append("buttonGrp "):sb.append("buttonGrp trxnButton ");
+          username === user?sb.append("button-grp "):sb.append("button-grp trxn-button ");
           if(errors.includes('user')) sb.append("error ");
       }
 
@@ -83,7 +83,7 @@ const Form = () => {
 
       {errors.length>0 && (
       <div className="row">
-          <div className="col-lg-5 errorMesg">
+          <div className="col-lg-5 error-mesg">
             Please select the fields highlighted in red
          </div>
       </div>
@@ -127,12 +127,12 @@ const Form = () => {
             <label>
             <input type='number' name="amount" className={getClassNames(null, "amount")} value={amount} max='5000' onChange={onChangeAmount}/>
             <br/>
-            <p className='helpText'>***Maximum Allowed amount is 5000 INR</p>
+            <p className='help-text'>***Maximum Allowed amount is 5000 INR</p>
             </label>
           </div>
 
           <div className="col-lg-3 padding">
-            <input className="button btn btn-primary transferBtn" type='submit' disabled={formLoading} value='Transfer' />
+            <input className="button btn btn-primary transfer-btn" type='submit' disabled={formLoading} value='Transfer' />
             <ClipLoader
                 sizeUnit={"px"}
                 size={40}

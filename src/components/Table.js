@@ -53,7 +53,7 @@ const Table = () => {
         />
     <div disabled={loading}>
     <ReactTable
-       className="container jumbotron trxnTable table-bordered"
+       className="container jumbotron trxn-table table-bordered"
        data={transactions}
        columns={columns}
        defaultPageSize={10}
